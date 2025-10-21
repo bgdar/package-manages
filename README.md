@@ -3,16 +3,16 @@
 <p align="center">Aplikasi untuk menampilkan daftar package manager pada setiap sistem operasi (Windows, Linux, macOS).</p>
 
 ## Tech Stack
-
 <p align="center">
-  <!-- Ikon skill --> 
 <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=bun,svelte,sqlite,vim,linux&perline=5" />
+    <img src="https://skillicons.dev/icons?i=bun,svelte,sqlite&perline=5" />
   </a><br>
 </p>
+
 - **Runtime**: `Bun`
 - **Framework**: `Svelte` & `SvelteKit` (Fullstack Web)
 - **Database**: `Turso (SQLite modern)`
+> database name : `db-name-user.db` 
 - **Icons**: `phosphor-svelte` → [Phosphoricons](https://phosphoricons.com/)
 
 ## Routes
@@ -27,8 +27,12 @@
    - `/linux/package/apt`
    - `/mac/package/brew`
 
-## 🛠️ Start
+## script
 
 ```bash
 bun run dev
+```
+create database with **turso** di root project , jika belum ada 
+```bash 
+turso db create package-manager
 ```

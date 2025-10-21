@@ -26,7 +26,7 @@
 		</p>
 
 		<!-- Contoh konten -->
-		<button on:click={() => goto(`${page.url.pathname}/widget`)}>
+		<button on:click={() => goto(`${page.url.pathname}/winget`)}>
 			<div class="mt-8 grid gap-6 md:grid-cols-2">
 				<div class="rounded-2xl bg-white p-6 shadow transition hover:shadow-lg">
 					<h2 class="text-xl font-semibold">Winget</h2>

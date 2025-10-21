@@ -13,7 +13,4 @@ export const load :PageLoad =  ({params}) =>{
   }
 
 
-
-  
-
 }

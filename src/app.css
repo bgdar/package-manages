@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+
+/* animasi loading yang di guanakan di embede page */
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+.animate-shimmer {
+animation: shimmer 1.5s infinite;
+  transform: translateX(-100%);
+  background-size: 50% 100%;
+  opacity: 0.5;
+
+}
