@@ -14,6 +14,7 @@
 - **Database**: `Turso (SQLite modern)`
 > database name : `db-name-user.db` 
 - **Icons**: `phosphor-svelte` → [Phosphoricons](https://phosphoricons.com/)
+- css framewok : Tailwindcss 
 
 ## Routes
 
@@ -26,6 +27,10 @@
    - `/windows/package/scoop`
    - `/linux/package/apt`
    - `/mac/package/brew`
+4. `/user/` : nantik akan ada menu login yang di mana ini , akan menjadi halaman nya
+    - `/user/sign-in`: login  
+    - `/user/sign-up`: register  
+
 
 ## script
 

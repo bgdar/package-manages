@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { PageProps } from './$types';
 
-	import LinuxPage from '$lib/pages/package-so/linux-page.svelte';
-  import WindowsPage from '$lib/pages/package-so/windows-page.svelte';
-	import MacPage from '$lib/pages/package-so/mac-page.svelte';
-
+	import LinuxPage from '$lib/packages/pages/linux-page.svelte';
+  import WindowsPage from '$lib/packages/pages/windows-page.svelte';
+	import MacPage from '$lib/packages/pages/mac-page.svelte';
+  
   // yang di dapat dari page.ts
 	let { data }: PageProps = $props();
 </script>

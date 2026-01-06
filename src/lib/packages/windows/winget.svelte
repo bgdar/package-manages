@@ -11,7 +11,7 @@ function handleEmbededError(){
 
 
 <header class="w-full border-2 shadow-gray-700 ">
-<p>asa</p>
+<p class="font-bold ">winget</p>
 </header>
 
 <main>
